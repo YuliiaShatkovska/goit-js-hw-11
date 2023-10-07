@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+.form-container {
+  background-color: rgb(19, 71, 241);
+  padding: 5px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+input {
+  padding: 10px 20px;
+  outline: none;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: bisque;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.photo-card {
+  width: calc((100% - 72px) / 4);
+}
+
+.info {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
