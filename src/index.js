@@ -17,7 +17,7 @@ let currentPage = 1;
 function handleSearchImages(e) {
   e.preventDefault();
   const value = form.searchQuery.value.trim();
-  console.log(value);
+
   if (value !== '') {
     searchImages(value);
   }
